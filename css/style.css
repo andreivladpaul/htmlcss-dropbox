@@ -271,3 +271,30 @@ main {
 .pulsante > a {
   color: white;
 }
+
+/*       sezione contatta    */
+
+/*       sezione cerca partner    */
+.partner .img {
+  width: 592px;
+  height: 505px;
+  float: left;
+  background-image: url(../img/partner.png);
+  background-size: cover;
+}
+
+.partner .partner-text {
+  float: left;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.partner .partner-text p {
+  margin-bottom: 40px;
+}
+
+.partner-btn {
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid black;
+  padding: 10px;
+}
