@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 /*                   debug                  */
 .debug {
   background-color: lightcoral;
@@ -46,6 +50,11 @@ a {
   content: '';
   clear: both;
   display: table;
+}
+
+.grey {
+  color: grey;
+  font-size: 14px;
 }
 
 .text-align {
@@ -97,6 +106,7 @@ nav li {
 }
 
 .nav-left ul li a img {
+  vertical-align: middle;
 }
 
 .nav-right {
@@ -115,13 +125,13 @@ nav li {
   padding: 5px 15px;
 }
 
-.logo {
+.logo-dropbox {
   vertical-align: middle;
   height: auto;
 }
-/*         fine nav              */
+/*             fine nav                 */
 
-/*         header              */
+/*             header                  */
 header {
   padding: 110px 0;
 }
@@ -159,9 +169,9 @@ header .header-section .text {
   object-fit: cover;
 }
 
-/*        fine header              */
+/*           fine header                  */
 
-/*         main              */
+/*          main              */
 main {
   padding-top: 220px;
 }
@@ -177,7 +187,7 @@ main {
 .abbonamento {
   display: inline-block;
   width: 328px;
-  height: 700px;
+  height: 1000px;
 }
 
 .abbonamento-1 {
@@ -202,6 +212,10 @@ main {
   border-bottom: 1px solid grey;
 }
 
+.subscription-title #title {
+  font-size: 24px;
+}
+
 .prova-gratis > a {
   color: white;
 }
@@ -217,16 +231,12 @@ main {
   width: 5%;
   color: #0061ff;
   text-align: start;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .tick-text {
   display: inline-block;
   width: 90%;
-}
-
-.grey {
-  color: grey;
 }
 
 /*       fine elementi in comune in abbonamenti    */
@@ -297,4 +307,258 @@ main {
   line-height: 40px;
   border: 1px solid black;
   padding: 10px;
+}
+
+/*         fine sezione cerca partner       */
+.operazioni {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.row {
+  width: 100%;
+}
+
+.row .strumenti {
+  width: 310px;
+}
+
+.strumento-1,
+.strumento-2 {
+  float: left;
+}
+
+.strumento-2 {
+  margin-left: 160px;
+}
+
+.strumento-3 {
+  float: right;
+}
+
+.foto img {
+  width: 100%;
+}
+
+.row-2 {
+  margin-top: 60px;
+}
+
+.utenti {
+  width: 100%;
+  margin-top: 200px;
+}
+
+.utenti a {
+  text-decoration: underline;
+  color: #0061ff;
+}
+
+.section-loghi-faq {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.square {
+  width: 485px;
+  height: 485px;
+}
+
+.square-1 {
+  float: left;
+}
+
+.square-2 {
+  float: right;
+}
+
+.logo {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+.logo img {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  filter: invert(1);
+}
+
+.logo-1 > img {
+  width: 135px;
+  height: 45px;
+}
+
+.logo-1 {
+  float: left;
+  background-color: #a2d39b;
+  border: 10px solid #d0e9cd;
+}
+
+.logo-2 {
+  float: right;
+  background-color: #61082b;
+}
+
+.logo-3 {
+  float: left;
+  background-color: #0093ce;
+}
+
+.logo-3 img {
+  height: 35px;
+}
+
+.logo-4 {
+  float: right;
+  background-color: #ff1c1c;
+}
+
+/*          center            */
+
+.center {
+  float: left;
+  width: calc(100% - 970px);
+  height: 485px;
+  background-color: #f5f5f5;
+  border: none;
+}
+
+.designit {
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.designit p {
+  margin-top: 50px;
+}
+
+#design {
+  width: 135px;
+  height: 45px;
+}
+
+.logo-1-1 {
+  float: left;
+  background-color: #d5001f;
+}
+
+.logo-2-1 {
+  float: right;
+  background-color: #b4d0e7;
+}
+
+.logo-3-1 {
+  float: left;
+  background-color: #0d2481;
+}
+.logo-4-1 {
+  float: right;
+  background-color: #ffd830;
+}
+
+.free-try {
+  background-color: #b4d0e7;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.free-trial {
+  margin: 0 auto;
+}
+
+.free-trial h2 {
+  float: left;
+  color: #61082b;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.free-btn {
+  float: right;
+  background-color: white;
+  font-size: 18px;
+  padding: 10px 60px;
+}
+
+.faq {
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+.faq h2 {
+  margin-bottom: 50px;
+}
+
+.domanda {
+  padding: 30px 0;
+  border-bottom: 1px solid #dcdcde;
+  font-weight: bold;
+}
+
+.domanda-text {
+  float: left;
+}
+
+.domanda-1 {
+  border-top: 1px solid #dcdcde;
+}
+.freccia {
+  float: right;
+}
+
+/*                     footer                  */
+footer {
+  width: 100%;
+  background-color: black;
+  padding: 50px 0;
+  color: white;
+}
+
+footer h5 {
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.wrapper {
+  padding: 50px 0;
+}
+
+.parte-sup-footer {
+  display: inline-block;
+}
+
+.footer-section {
+  float: left;
+  display: inline-block;
+  margin-right: 100px;
+  text-align: left;
+}
+
+.footer-section a {
+  display: block;
+  color: white;
+  padding-bottom: 10px;
+  font-size: 13.26px;
+  text-decoration: none;
+}
+/*               fine parte-sup-footer             */
+.lang i {
+  margin-top: 30px;
+}
+
+.lang a {
+  color: white;
+  text-decoration: none;
 }
