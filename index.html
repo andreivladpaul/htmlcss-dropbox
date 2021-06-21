@@ -21,21 +21,26 @@
             <ul>
                 <li class="logo-dropbox"> <a href="#"> <img src="img/logo-small.png" alt=""> </a>
                 </li>
-                <li><a href="">Perché Dropbox</a></li>
-                <li><a href="">Perché Dropbox</a></li>
-                <li><a href="">Funzioni</a></li>
-                <li><a href="">Piani e Prezzi</a></li>
+                <li><a href="#">Perché Dropbox</a></li>
+                <li><a href="#">Perché Dropbox</a></li>
+                <li><a href="#">Funzioni</a></li>
+                <li><a href="#">Piani e Prezzi</a></li>
             </ul>
 
         <!-- </div> -->
 
         <div class="nav-right text-align">
             <ul>
-                <li><a href="">Supporto</a></li>
-                <li><a href="">Contatta l'ufficio vendite</a></li>
-                <li><a href="">Accedi</a></li>
+                <li class="supporto"><a href="#">Supporto</a></li>
+                <li><a href="#">Contatta l'ufficio vendite</a></li>
+                <li><a href="#">Accedi</a></li>
                 <li class="btn"><a href="#">Inizia</a></li>
             </ul>
+
+            <div class="show">
+                <p> <a href="#">Info</a> </p>
+                <p><a href="#">Contatti</a></p>
+            </div>
 
 
         </div>
@@ -68,7 +73,7 @@
                  </p>
 
                  <div class="arrow">
-                    &#129067;
+                    <a href="#abbonati"> &#129067;</a>
                 </div>
             </div>
 
@@ -82,12 +87,13 @@
         </div>
 
     </header>
+    <!--          fine  header           -->
 
-    <!--            header           -->
+    <!--            main           -->
     <main class="w-60">
 
         <!--            Sezione abbonamenti           -->
-        <section class="abbonamenti">
+        <section id="abbonati" class="abbonamenti clearfix">
             <h2>Trova il tuo abbonamento</h2>
 
             <form class="select">
@@ -97,300 +103,311 @@
                 <input type="radio" name="fattura-annule" value="fattura-annule">
                 <label for="fattura-annule">Fattura annuale</label>
             </form>
-            <!-- abbonamento 1 -->
-            <div class="abbonamento abbonamento-1 border-grey">
-                <div class="section-title">
-                    <i class="far fa-user"></i> Singolo
-                </div>
-                
 
-                <div class="subscription-details w-80 margin">
-                    <div class="subscription-title">
-                        <h3 id="title">Professional</h3>
-                        
-                        <h3 class="margin-15">19,99 €</h3>
-                        
-                        <p class="margin-15 grey">/mese</p>
+            <!--                contenitore principale abbonamenti                -->
+            <div class="col clearfix">
+                <!--                abbonamento 1                -->
+                <div class="abbonamento abbonamento-1 border-grey">
+                    <div class="section-title">
+                        <i class="far fa-user"></i> Singolo
+                    </div>
+
+
+                    <div class="subscription-details w-80 margin">
+                        <div class="subscription-title">
+                            <h3 id="title">Professional</h3>
+
+                            <h3 class="margin-15">19,99 €</h3>
+
+                            <p class="margin-15 grey">/mese</p>
     
+                        </div>
+
+                        <div class="description margin">
+                            <p> <i class="far fa-user"></i> 1 utente</p>
+
+                            <div class="left clearfix">
+                                <p class="margin-15" ><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</p>
+
+                            </div> 
+
+                            <p class="margin-15 "><i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura
+                            </p>
+                        </div>
+
+                        <div class="prova-gratis  margin pulsante ">
+                            <a href="#">Prova gratis per 30 giorni</a>   
+                        </div>
+
+                        <p class="margin">oppure <a href="#">acquista ora</a></p>
+
+                       <div class="impo-points margin">
+                           <h3>Punti salienti del piano</h3>
+
+                           <div class="tick-section clearfix">
+                                <div class="tick margin ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin">
+                                 <span>Inviare file fino a 100 GB con Dropbox Transfer</span>
+                                </div>
+                            </div>
+
+                            <div class="tick-section clearfix">
+                                <div class="tick margin-15 ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin-15">
+                                 <span>Cartelle offline su dispositvi mobili</span>
+                                </div>
+                            </div>
+
+                            <div class="tick-section clearfix">
+                                <div class="tick margin-15 ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin-15">
+                                 <span>Pulizia remota dell'account</span>
+                                </div>
+                            </div>
+
+                            <div class="tick-section clearfix">
+                                <div class="tick margin-15 ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin-15">
+                                 <span>Filigrana documento</span>
+                                </div>
+                            </div>
+
+                            <div class="tick-section clearfix">
+                                <div class="tick margin-15 ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin-15">
+                                 <span>Assistenza prioritaria via email e chat</span>
+                                </div>
+                            </div>
+                       </div>
+
+
                     </div>
-
-                    <div class="description margin">
-                        <p> <i class="far fa-user"></i> 1 utente</p>
-                        
-                        <div class="left clearfix">
-                            <p class="margin-15" ><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</p>
-
-                        </div> 
-                        
-                        <p class="margin-15 "><i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura
-                        </p>
-                    </div>
-
-                    <div class="prova-gratis  margin pulsante ">
-                        <a href="#">Prova gratis per 30 giorni</a>   
-                    </div>
-
-                    <p class="margin">oppure <a href="#">acquista ora</a></p>
-
-                   <div class="impo-points margin">
-                       <h3>Punti salienti del piano</h3>
-
-                       <div class="tick-section clearfix">
-                            <div class="tick margin ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin">
-                             <span>Inviare file fino a 100 GB con Dropbox Transfer</span>
-                            </div>
-                        </div>
-
-                        <div class="tick-section clearfix">
-                            <div class="tick margin-15 ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin-15">
-                             <span>Cartelle offline su dispositvi mobili</span>
-                            </div>
-                        </div>
-
-                        <div class="tick-section clearfix">
-                            <div class="tick margin-15 ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin-15">
-                             <span>Pulizia remota dell'account</span>
-                            </div>
-                        </div>
-
-                        <div class="tick-section clearfix">
-                            <div class="tick margin-15 ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin-15">
-                             <span>Filigrana documento</span>
-                            </div>
-                        </div>
-
-                        <div class="tick-section clearfix">
-                            <div class="tick margin-15 ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin-15">
-                             <span>Assistenza prioritaria via email e chat</span>
-                            </div>
-                        </div>
-                   </div>
 
 
                 </div>
+                <!--           fine abbonamento 1           -->
 
 
-            </div>
-            <!-- abbonamento 2 -->
-            <div class="abbonamento abbonamento-2 border-grey">
-                <div class="section-title">
-                    <i class="far fa-building"></i> Team
-                </div>
-                
 
-                <div class="subscription-details w-80 margin">
-                    <div class="subscription-title">
-                        <h3 id="title" >Standard</h3>
-                        
-                        <h3 class="margin-15">19,99 €</h3>
-                        
-                        <p class="margin-15 grey">/utente /mese, a partire da 3 utenti</p>
+                <!--            abbonamento 2           -->
+                <div class="abbonamento abbonamento-2 border-grey">
+                    <div class="section-title">
+                        <i class="far fa-building"></i> Team
+                    </div>
+
+
+                    <div class="subscription-details w-80 margin">
+                        <div class="subscription-title">
+                            <h3 id="title" >Standard</h3>
+
+                            <h3 class="margin-15">19,99 €</h3>
+
+                            <p class="margin-15 grey">/utente /mese, a partire da 3 utenti</p>
     
+                        </div>
+
+                        <div class="description margin">
+                            <p> <i class="fas fa-user-plus"></i> 1 utente</p>
+
+                            <p class="margin-15"> <i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</p>
+
+                            <p class="margin-15"><i class="far fa-smile"></i> Funzioni di produttività premium e condivisione file semplice e sicura
+                            </p>
+                        </div>
+
+                        <div class="prova-gratis  margin pulsante">
+                            <a href="#">Prova gratis per 30 giorni</a>   
+                        </div>
+
+                        <p class="margin">oppure <a href="#">acquista ora</a></p>
+
+                       <div class="impo-points margin">
+                           <h3>Punti salienti del piano</h3>
+
+                           <div class="tick-section clearfix">
+                                <div class="tick margin ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin">
+                                 <span>Inviare file fino a 100 GB con Dropbox Transfer</span>
+                                </div>
+                            </div>
+
+                            <div class="tick-section clearfix">
+                                <div class="tick margin-15 ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin-15">
+                                 <span>Cartelle offline su dispositvi mobili</span>
+                                </div>
+                            </div>
+
+                            <div class="tick-section clearfix">
+                                <div class="tick margin-15 ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin-15">
+                                 <span>Pulizia remota dell'account</span>
+                                </div>
+                            </div>
+
+                            <div class="tick-section clearfix">
+                                <div class="tick margin-15 ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin-15">
+                                 <span>Filigrana documento</span>
+                                </div>
+                            </div>
+
+                            <div class="tick-section clearfix">
+                                <div class="tick margin-15 ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin-15">
+                                 <span>Assistenza prioritaria via email e chat</span>
+                                </div>
+                            </div>
+
+                            <div class="tick-section clearfix">
+                                <div class="tick margin-15 ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin-15">
+                                 <span>Assistenza prioritaria via email e chat</span>
+                                </div>
+                            </div>
+                       </div>
+
+
                     </div>
-
-                    <div class="description margin">
-                        <p> <i class="fas fa-user-plus"></i> 1 utente</p>
-                        
-                        <p class="margin-15"> <i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</p>
-                        
-                        <p class="margin-15"><i class="far fa-smile"></i> Funzioni di produttività premium e condivisione file semplice e sicura
-                        </p>
-                    </div>
-
-                    <div class="prova-gratis  margin pulsante">
-                        <a href="#">Prova gratis per 30 giorni</a>   
-                    </div>
-
-                    <p class="margin">oppure <a href="#">acquista ora</a></p>
-
-                   <div class="impo-points margin">
-                       <h3>Punti salienti del piano</h3>
-
-                       <div class="tick-section clearfix">
-                            <div class="tick margin ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin">
-                             <span>Inviare file fino a 100 GB con Dropbox Transfer</span>
-                            </div>
-                        </div>
-
-                        <div class="tick-section clearfix">
-                            <div class="tick margin-15 ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin-15">
-                             <span>Cartelle offline su dispositvi mobili</span>
-                            </div>
-                        </div>
-
-                        <div class="tick-section clearfix">
-                            <div class="tick margin-15 ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin-15">
-                             <span>Pulizia remota dell'account</span>
-                            </div>
-                        </div>
-
-                        <div class="tick-section clearfix">
-                            <div class="tick margin-15 ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin-15">
-                             <span>Filigrana documento</span>
-                            </div>
-                        </div>
-
-                        <div class="tick-section clearfix">
-                            <div class="tick margin-15 ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin-15">
-                             <span>Assistenza prioritaria via email e chat</span>
-                            </div>
-                        </div>
-
-                        <div class="tick-section clearfix">
-                            <div class="tick margin-15 ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin-15">
-                             <span>Assistenza prioritaria via email e chat</span>
-                            </div>
-                        </div>
-                   </div>
 
 
                 </div>
+                <!--          fine  abbonamento 2           --> 
+
+                <!--            abbonamento 3           -->
+                <div class="abbonamento abbonamento-3 border-grey">
+                    <div class="section-title">
+                        <i class="far fa-building"></i> Team
+                    </div>
 
 
-            </div>
-            <!-- abbonamento 3 -->
-            <div class="abbonamento abbonamento-3 border-grey">
-                <div class="section-title">
-                    <i class="far fa-building"></i> Team
-                </div>
-                
+                    <div class="subscription-details w-80 margin">
+                        <div class="subscription-title">
+                            <h3 id="title">Advanced</h3>
 
-                <div class="subscription-details w-80 margin">
-                    <div class="subscription-title">
-                        <h3 id="title">Advanced</h3>
-                        
-                        <h3 class="margin-15">19,99 €</h3>
-                        
-                        <p class="margin-15 grey">/utente /mese, a partire da 3 utenti</p>
+                            <h3 class="margin-15">19,99 €</h3>
+
+                            <p class="margin-15 grey">/utente /mese, a partire da 3 utenti</p>
     
+                        </div>
+
+                        <div class="description margin">
+                            <p><i class="fas fa-user-plus"></i> 1 utente</p>
+
+                            <p class="margin-15"><i class="far fa-smile"></i> 3 TB di spazio di archiviazione sicuro</p>
+
+                            <p class="margin-15"><i class="fas fa-pencil-alt"></i>Funzioni di produttività premium e condivisione file semplice e sicura
+                            </p>
+                        </div>
+
+                        <div class="prova-gratis  margin pulsante ">
+                            <a href="#">Prova gratis per 30 giorni</a>   
+                        </div>
+
+                        <p class="margin">oppure <a href="#">acquista ora</a></p>
+
+                       <div class="impo-points margin">
+                           <h3>Punti salienti del piano</h3>
+
+                           <div class="tick-section clearfix">
+                                <div class="tick margin ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin">
+                                 <span>Inviare file fino a 100 GB con Dropbox Transfer</span>
+                                </div>
+                            </div>
+
+                            <div class="tick-section clearfix">
+                                <div class="tick margin-15 ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin-15">
+                                 <span>Cartelle offline su dispositvi mobili</span>
+                                </div>
+                            </div>
+
+                            <div class="tick-section clearfix">
+                                <div class="tick margin-15 ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin-15">
+                                 <span>Pulizia remota dell'account</span>
+                                </div>
+                            </div>
+
+                            <div class="tick-section clearfix">
+                                <div class="tick margin-15 ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin-15">
+                                 <span>Filigrana documento</span>
+                                </div>
+                            </div>
+
+                            <div class="tick-section clearfix">
+                                <div class="tick margin-15 ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin-15">
+                                 <span>Assistenza prioritaria via email e chat</span>
+                                </div>
+                            </div>
+
+                            <div class="tick-section clearfix">
+                                <div class="tick margin-15 ">
+                                 <span>&#10004;</span>
+                                </div>
+
+                                <div class="tick-text margin-15">
+                                 <span>Assistenza prioritaria via email e chat</span>
+                                </div>
+                            </div>
+                       </div>
+
+
                     </div>
-
-                    <div class="description margin">
-                        <p><i class="fas fa-user-plus"></i> 1 utente</p>
-                        
-                        <p class="margin-15"><i class="far fa-smile"></i> 3 TB di spazio di archiviazione sicuro</p>
-                        
-                        <p class="margin-15"><i class="fas fa-pencil-alt"></i>Funzioni di produttività premium e condivisione file semplice e sicura
-                        </p>
-                    </div>
-
-                    <div class="prova-gratis  margin pulsante ">
-                        <a href="#">Prova gratis per 30 giorni</a>   
-                    </div>
-
-                    <p class="margin">oppure <a href="#">acquista ora</a></p>
-
-                   <div class="impo-points margin">
-                       <h3>Punti salienti del piano</h3>
-
-                       <div class="tick-section clearfix">
-                            <div class="tick margin ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin">
-                             <span>Inviare file fino a 100 GB con Dropbox Transfer</span>
-                            </div>
-                        </div>
-
-                        <div class="tick-section clearfix">
-                            <div class="tick margin-15 ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin-15">
-                             <span>Cartelle offline su dispositvi mobili</span>
-                            </div>
-                        </div>
-
-                        <div class="tick-section clearfix">
-                            <div class="tick margin-15 ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin-15">
-                             <span>Pulizia remota dell'account</span>
-                            </div>
-                        </div>
-
-                        <div class="tick-section clearfix">
-                            <div class="tick margin-15 ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin-15">
-                             <span>Filigrana documento</span>
-                            </div>
-                        </div>
-
-                        <div class="tick-section clearfix">
-                            <div class="tick margin-15 ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin-15">
-                             <span>Assistenza prioritaria via email e chat</span>
-                            </div>
-                        </div>
-
-                        <div class="tick-section clearfix">
-                            <div class="tick margin-15 ">
-                             <span>&#10004;</span>
-                            </div>
-
-                            <div class="tick-text margin-15">
-                             <span>Assistenza prioritaria via email e chat</span>
-                            </div>
-                        </div>
-                   </div>
-
 
                 </div>
-
+                <!--           fine abbonamento 3           -->
             </div>
 
             <div class="contatti border-grey  ">
@@ -404,10 +421,9 @@
                             Enterprise
                         </h3>
 
-                        <p class=" margin"> <strong>Contatta l'ufficio vendite per i prezzi</strong></p>
+                        <p class="margin"> <strong>Contatta l'ufficio vendite per i prezzi</strong></p>
 
-                        <p  class=" margin">Soluzioni personalizzate e supporto su misura per aiutare
-                            i professionisti IT nella gestione su qualsiasi scala. 
+                        <p  class="margin">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala. 
                         </p>
 
                     </div>
@@ -647,32 +663,81 @@
             
             <h2>Domande frequenti </h2>
 
-            <div class="domanda clearfix domanda-1">
-                <p class="domanda-text">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> 
+            <div class="domanda domanda-1">
+                <div class="corpo-domanda clearfix">
+              
+                        <p class="domanda-text"> <a href="">Qual è la differenza tra Dropbox Business       Standard e Dropbox Business Advanced?</a>
+                        </p> 
 
-                <div class="freccia"> <i class="fas fa-chevron-down"></i></div>
+              
+                        <div class="freccia"> 
+                            <p><a href="#"><i class="fas fa-chevron-down freccia-giu"></i>
+                                <i class="fa fa-chevron-up freccia-su"></i>
+                                </a>
+                            </p>
+                        </div>
+                </div>
+                
 
-            </div>
-            <div class="domanda clearfix">
-                <p class="domanda-text">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> 
+                <div class="domanda-mostra">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla ducimus excepturi quaerat, exercitationem, consequuntur inventore perspiciatis doloremque sed, fugiat quam ex repellat laborum. Accusantium tenetur necessitatibus, ducimus culpa atque totam!</p>
 
-                <div class="freccia"> <i class="fas fa-chevron-down"></i></div>
-
-            </div>
-            <div class="domanda clearfix">
-                <p class="domanda-text">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> 
-
-                <div class="freccia"> <i class="fas fa-chevron-down"></i></div>
-
-            </div>
-            <div class="domanda clearfix">
-                <p class="domanda-text">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> 
-
-                <div class="freccia"> <i class="fas fa-chevron-down"></i></div>
-
+                </div>
             </div>
 
+
+            <div class="domanda domanda-1">
+                <div class="corpo-domanda clearfix">
+              
+                    <p class="domanda-text"> <a href="">Qual è la differenza tra Dropbox Business       Standard e Dropbox Business Advanced?</a>
+                    </p> 
+
+          
+                    <div class="freccia"> 
+                        <p><a href="#"><i class="fas fa-chevron-down freccia-giu"></i>
+                            <i class="fa fa-chevron-up freccia-su"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                
+
+                <div class="domanda-mostra">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla ducimus excepturi quaerat, exercitationem, consequuntur inventore perspiciatis doloremque sed, fugiat quam ex repellat laborum. Accusantium tenetur necessitatibus, ducimus culpa atque totam!</p>
+
+                </div>
+            </div>
+
+            <div class="domanda ">
+                <div class="corpo-domanda clearfix">
+              
+                    <p class="domanda-text"> <a href="">Qual è la differenza tra Dropbox Business       Standard e Dropbox Business Advanced?</a>
+                    </p> 
+
+          
+                    <div class="freccia"> 
+                        <p><a href="#"><i class="fas fa-chevron-down freccia-giu"></i>
+                            <i class="fa fa-chevron-up freccia-su"></i>
+                            </a>
+                        </p>
+                    </div>
+
+                </div>
+                
+
+                <div class="domanda-mostra">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla ducimus excepturi quaerat, exercitationem, consequuntur inventore perspiciatis doloremque sed, fugiat quam ex repellat laborum. Accusantium tenetur necessitatibus, ducimus culpa atque totam!</p>
+
+                </div>
+            </div>
         </div>
+
+        
+    
+
+            
+
+        
 
     </section>
     <!--          fine  Sezione partner           -->
@@ -697,7 +762,7 @@
 
 
                  <!-- prodotti  -->
-                <div class="footer-section ">
+                <div class="footer-section margin-left">
                     <h5 >Prodotti</h5>
                     <a href="#">Applicazione desktop</a>
                     <a href="#">Perchè Dropbox</a>
@@ -707,7 +772,7 @@
                 </div>
 
                   <!--       Azienda       -->
-                 <div class="footer-section ">
+                 <div class="footer-section margin-left ">
                      <h5 >Azienda</h5>
                      <a href="#">Applicazione desktop</a>
                      <a href="#">Perchè Dropbox</a>
@@ -717,7 +782,7 @@
                  </div>
 
                 <!--            Supporto             -->
-                <div class="footer-section ">
+                <div class="footer-section margin-left">
                     <h5 >Supporto</h5>
                     <a href="#">Applicazione desktop</a>
                     <a href="#">Perchè Dropbox</a>
@@ -727,7 +792,7 @@
                 </div>
 
                 <!--            Community             -->
-                <div class="footer-section ">
+                <div class="footer-section margin-left ">
                     <h5 >Community</h5>
                     <a href="#">Applicazione desktop</a>
                     <a href="#">Perchè Dropbox</a>
