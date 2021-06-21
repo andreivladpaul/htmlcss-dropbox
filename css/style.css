@@ -138,14 +138,19 @@ nav li:hover:not(.btn) {
   height: auto;
 }
 
+#supporto {
+  position: relative;
+}
+
 .show {
   position: absolute;
-
-  bottom: -50px;
-  right: 485px;
-  width: 100px;
+  display: none;
+  bottom: -188px;
+  right: 1px;
+  width: 122px;
   background-color: white;
   text-align: left;
+  padding: 5px 10px;
 }
 
 .show p {
